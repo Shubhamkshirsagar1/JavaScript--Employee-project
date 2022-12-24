@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-Employee Project</title>
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="icons8-globe-africa-16.png" type="image/x-icon">
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <!-- DropDown Filter -->
+        <p id="heading">Filter ui cards via their Profession.</p>
+
+        <select name="dropdown" id="dropdown">
+            <option value="Profession">Profession</option>
+            <option value="developer">Developer</option>
+            <option value="admin">Admin</option>
+        </select><br>
+
+        <div id="result"></div><br>
+
+        <button id="filterBtn">Filter</button>
+
+        
+        <p id="add-heading">Add a new user</p>
+    
+
+        <!-- ADD User -->
+        <section>
+            <div>
+                <p class="p-title">Enter Name</p>
+                <input id="name" type="text">
+            </div>
+
+            <!-- <div>
+                <p class="p-title">Enter Profession</p>
+                <input id="proffesion" type="text">
+            </div> -->
+
+            <div>
+                <p class="p-title">Enter Profession</p>
+                <select id="proffesion">
+                    <option disabled selected value="">Select Profession</option>
+                    <option value="developer">Developer</option>
+                    <option value="admin">Admin</option>
+                </select>
+            </div>
+
+            <div>
+                <p class="p-title">Enter Age</p>
+                <input id="age" type="number"><br>
+            </div>
+        </section>
+
+        <!-- Add User Button -->
+        <button id="addUser">Add User</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

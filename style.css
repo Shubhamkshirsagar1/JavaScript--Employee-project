@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    position: relative;
+    overflow-x: hidden;
+}
+
+main {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#heading {
+    font-size: 25px;
+    margin: 30px 0px;
+}
+
+#dropdown{
+    width: 130px;
+    height: 40px;
+    margin-bottom: 30px;
+    padding-left: 7px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#filterBtn {
+    /* padding: 7px 45px; */
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#result div {
+    width: 400px;
+    margin: 15px 0px;
+    padding: 12px 7px;
+    border: 1px solid white;
+    border-radius: 8px;
+    word-spacing: 15px;
+}
+
+section{
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-heading {
+    font-size: 25px;
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+
+.p-title {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+input {
+    width: 250px;
+    height: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: black;
+}
+
+input[type='text'] {
+    padding-left: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+input[type='number'] {
+    padding-left: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#addUser{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    /* padding: 7px 45px; */
+    font-size: 20px;
+}
+
+#proffesion{
+    width: 260px;
+    height: 35px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: black;
+    color:#FFFFFF;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 940px) {
+    section{
+        flex-direction: column;
+    }
+    input {
+        width: 50%;
+        height: 33px;
+        margin-bottom: 25px;
+    }
+    #proffesion{
+        width: 50%;
+        height: 33px;
+        margin-bottom: 25px;
+    }
+    .p-title {
+        margin-bottom: 10px;
+    }
+    #addUser{
+        margin-top: 30px;
+    }
+}
